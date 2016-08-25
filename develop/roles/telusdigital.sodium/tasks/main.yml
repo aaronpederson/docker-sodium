@@ -1,0 +1,17 @@
+---
+- name: Install Packages | apt
+  apt:
+    state: latest
+    pkg: "{{ item }}"
+  with_items:
+    - libsodium13
+    - libsodium-dev
+  when: ansible_distribution_release == 'trusty'
+
+- name: Install Packages | apt
+  apt:
+    state: latest
+    pkg: "{{ item }}"
+  with_items:
+    - libsodium18
+  when: ansible_distribution_release == 'xenial'

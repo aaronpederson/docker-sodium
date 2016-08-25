@@ -1,0 +1,18 @@
+---
+dependencies:
+
+galaxy_info:
+  author: "Aaron Pederson"
+  company: "TELUS digital"
+  description: "Sodium is a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more."
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+      - precise
+      - trusty
+      - utopic
+      - xenial
+  categories:
+    - development
+    - system
