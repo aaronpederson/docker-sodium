@@ -1,4 +1,4 @@
 FROM aaronpederson/ubuntu
 
-RUN apt update
-RUN apt install libsodium18
+RUN apt-get update
+RUN apt-get install libsodium18
