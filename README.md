@@ -2,7 +2,7 @@
 
 [Sodium](https://download.libsodium.org/doc) - The Sodium crypto library
 
-[![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
+![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)[![](https://images.microbadger.com/badges/image/aaronpederson/sodium.svg)](https://microbadger.com/images/aaronpederson/sodium "Get your own image badge on microbadger.com")
 
 Tunables
 --------
